@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FurduncomioBuilds</title>
+  <link rel="icon" href="Imagem Site.png" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-gray-900 text-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold">FurduncomioBuilds</h1>
+      <nav class="space-x-6 hidden md:flex items-center">
+        <a href="#home" class="hover:text-yellow-400">Home</a>
+        <a href="#produtos" class="hover:text-yellow-400">Jogos</a>
+        <a href="#criadores" class="hover:text-yellow-400">Criadores</a>
+        <a href="#discord" class="hover:text-yellow-400">Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+    <!-- Fundo com vídeo e overlay -->
+    <div class="absolute inset-0 bg-center bg-cover z-0" style="background-image: url('https://source.unsplash.com/1600x900/?fashion,clothing');"></div>
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+      <source src="Video2.mp4" type="video/mp4" />
+    </video>
+    <div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+
+    <!-- Conteúdo -->
+    <div class="relative z-20 text-center px-6 max-w-2xl">
+
+      <div class="relative -mt-32">
+        <h2 class="text-4xl md:text-6xl font-bold text-white mb-4">Furduncomio Builds</h2>
+        <p class="text-xl text-gray-300 mb-6">Aqui estão as melhores Builds/Estrategias de diversos jogos que você já viu!</p>
+      </div>
+
+      <!-- Botão: mais abaixo com margem responsiva -->
+      <div class="mt-72 md:-mt-32 lg:mt-52">
+        <a href="#produtos" class="bg-gray-900 hover:bg-gray-800 text-white py-3 px-10 rounded-lg font-semibold transition transform hover:scale-105 duration-300 inline-flex items-center justify-center">
+          START
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-3xl font-bold">Lista de Jogos 🎮</h3>
+      </div>
+
+      <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+        <!-- Produto 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition flex flex-col">
+          <img src="TDsFoto.jpg" alt="Tower Defense Simulator" class="w-full h-64 object-cover" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h4 class="font-bold text-xl mb-2">Tower Defense Simulator</h4>
+            <p class="text-gray-700 mb-4">Build e Estratégias para Tower Defense Simulator!</p>
+            <div class="mt-auto">
+              <a href="tds.html" class="block bg-black text-center text-white py-2 rounded-lg hover:bg-gray-800 transition transform hover:scale-105 duration-300">
+                Veja Aqui
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition flex flex-col">
+          <img src="Pilgrammed.webp" alt="Pilgrammed" class="w-full h-64 object-cover" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h4 class="font-bold text-xl mb-2">Pilgrammed</h4>
+            <p class="text-gray-700 mb-4">Builds para Pilgrammed!</p>
+            <div class="mt-auto">
+              <a href="pilgrammed.html" class="block bg-black text-center text-white py-2 rounded-lg hover:bg-black-600 transition transform hover:scale-105 duration-300">
+                Veja Aqui
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition flex flex-col">
+          <img src="Soon.avif" alt="Em breve" class="w-full h-64 object-cover" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h4 class="font-bold text-xl mb-2">Em breve..</h4>
+            <p class="text-gray-700 mb-4">Em breve.</p>
+            <span class="text-lg font-semibold text-yellow-600">
+            <div class="mt-auto">
+              <a href="" class="block bg-black -500 text-center text-white py-2 rounded-lg hover:bg-black -600 transition transform hover:scale-105 duration-300">
+                Veja Aqui
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- Criadores -->
+<section id="criadores" class="py-20 bg-white">
+  <div class="container mx-auto px-6 max-w-4xl text-center">
+    <h3 class="text-3xl font-bold mb-10">Criadores 🛠</h3>
+    <p class="text-gray-700 mb-10">
+      Somos uma equipe apaixonada por jogos e estratégias, dedicados a trazer as melhores builds para você.
+    </p>
+    <div class="flex flex-wrap justify-center gap-12">
+      <!-- Criador 1 -->
+      <div class="flex flex-col items-center max-w-xs">
+        <img src="Euu.webp" alt="Felipe" class="w-20 h-20 rounded-full mb-4 object-cover" />
+        <h4 class="font-semibold text-xl">Felipe</h4>
+        <p class="text-gray-900 mb-4">Desenvolvedor Front e Back End e Jogador de ambos os jogos</p>
+        <a
+          href="https://www.roblox.com/pt/users/110998995/profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
+        >
+          Ver perfil do Roblox
+        </a>
+      </div>
+      <!-- Criador 2 -->
+      <div class="flex flex-col items-center max-w-xs">
+        <img src="CAuaaa.webp" alt="Cauã" class="w-20 h-20 rounded-full mb-4 object-cover" />
+        <h4 class="font-semibold text-xl">Cauã</h4>
+        <p class="text-gray-900 mb-4">Designer das builds e Viciado em LOL, e o top 1 main shaco Br Forever</p>
+        <a
+          href="https://www.roblox.com/pt/users/124592300/profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
+        >
+          Ver perfil do Roblox
+        </a>
+      </div>
+      <!-- Criador 3 -->
+      <div class="flex flex-col items-center max-w-xs">
+        <img src="Luizzz.webp" alt="Luizão" class="w-20 h-20 rounded-full mb-4 object-cover" />
+        <h4 class="font-semibold text-xl">Luizão</h4>
+        <p class="text-gray-900 mb-4">Especialista de Commander Tower Defense e viciado em LOL 2</p>
+        <a
+          href="https://www.roblox.com/pt/users/148052707/profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
+        >
+          Ver perfil do Roblox
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Discord Section -->
+<section id="discord" class="relative py-20 bg-gray-100 overflow-hidden">
+  <!-- Imagem de fundo -->
+  <div class="absolute inset-0">
+    <img
+      src="discord.webp"
+      alt="Fundo Discord"
+      class="w-full h-full object-cover opacity-50"
+    />
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  </div>
+
+  <div class="container mx-auto px-6 max-w-xl text-center relative z-10">
+    <h3 class="text-3xl font-bold mb-6 text-white">Entre no nosso Discord!</h3>
+    <p class="text-gray-200 mb-6">
+      Junte-se à comunidade para trocar dicas, compartilhar estratégias e se conectar com outros jogadores.
+    </p>
+    <!-- Botão com link do servidor Discord -->
+    <a
+      href="https://discord.gg/seulinkaqui"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition transform hover:scale-105 duration-300"
+    >
+      Entrar no Discord
+    </a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-black -900 text-white py-6 text-center">
+    <p>&copy; 2025 FurduncomioBuilds. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
